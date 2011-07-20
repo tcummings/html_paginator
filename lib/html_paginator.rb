@@ -1,0 +1,3 @@
+module HtmlPaginator
+  # Your code goes here...
+end
