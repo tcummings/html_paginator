@@ -1,2 +1,9 @@
+require 'rubygems'
 require 'bundler'
-Bundler::GemHelper.install_tasks
+Bundler.setup
+
+require 'rake'
+
+require 'rspec/core/rake_task'
+RSpec::CORE::RakeTaske.new(:spec)
+task :default => :spec
